@@ -2,79 +2,55 @@
   <div id="about-page" class="page-wrapper about-page content-page">
     <site-hero
       title="About Me"
-      subtitle="About Page"
+      subtitle="A few words about the author of this blog"
       image="/uploads/about-hero.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <div class="content">
-          <h3>The nice things about blogs...</h3>
+          <h2>The nice things about blogs...</h2>
           <p>
-            <strong>
-              You can write anything you want, all is allowed.
-            </strong>
+            <strong>You can write anything you want, all is allowed.</strong>
           </p>
           <h3>A bit about me</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit!
+            I am a software developer and my experience has been on the
+            <strong>reporting arena.</strong> I started very long time ago
+            trying to implement reporting techniques to produce printed books
+            like directories using data from external systems, importing data to
+            Mac computers and make final art for printing.
           </p>
-          <quote-card />
-          <h3>Still More Fake Content</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit! Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit.
-            <strong>Alias aut facere harum ipsam</strong> quibusdam quidem
-            quisquam saepe? Alias architecto blanditiis consequatur consequuntur
-            dicta ipsa iste modi provident, quod, similique veritatis.
+            Since then I have developed hundreds of reporting systems, including
+            visualization tools, ETL techniques, standard reports with drill
+            down capabilities, an a lot of things I would like to share.
           </p>
-        </div>
+          <p>
+            Computer programming is now days the fusion of Technique and Art.
+            This blog is not intended for newcomers as reporting is a serious
+            business, but I wil try to keep it as simple as possible so you can
+            get some ideas out of it.
+          </p>
 
-        <div class="tile is-ancestor">
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">
-                Cool Stuff We Do
-              </p>
-              <p class="subtitle">
-                Sooo Cool
-              </p>
-              <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
-              </figure>
-            </article>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">
-                Other Cool Things
-              </p>
-              <p class="subtitle">
-                Just as cool
-              </p>
-              <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
-              </figure>
-            </article>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">
-                All the cool
-              </p>
-              <p class="subtitle">
-                that is all
-              </p>
-              <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
-              </figure>
-            </article>
-          </div>
+          <h3>Mentorship & teaching</h3>
+          <p>
+            I like to teach people how to program, and I do this in several
+            ways. When it comes to formal courses I work with
+            cusosgerenciales.com. You can find there basically my Office related
+            courses. I have a free program for educators that we are promoting
+            via the Venezuelan Natural Science Society. And I mentor individual
+            students so that they can accomplish a long term career in this
+            industry.
+          </p>
+
+          <h3>Tech Stack</h3>
+          <p>
+            Now days I focus on Javascript/Typescript ecosystem. This means I
+            use things like Angular, React, Vue, Node for backend development
+            and I use Loopback and currently my team is experimenting with
+            serverless architectures the JamStack and some other cool
+            technologies.
+          </p>
         </div>
       </template>
 
@@ -88,13 +64,20 @@
   </div>
 </template>
 <script>
-import QuoteCard from '~/components/cards/QuoteCard'
 export default {
   head() {
     return {
       title: `About | ${this.$siteConfig.siteName}`
     }
-  },
-  components: { QuoteCard }
+  }
 }
 </script>
+
+<style scoped>
+h3 {
+  font-size: 1.8rem;
+}
+p {
+  font-size: 1.5rem;
+}
+</style>
