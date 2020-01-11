@@ -9,7 +9,7 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Jorge Barrero Blog Site',
+  siteName: "Jorge Barrero's Blog Site",
   tagline: 'The art of computer programming',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
@@ -32,7 +32,7 @@ export default {
     }
   ],
   hero: {
-    theme: 'light' // options: mist, light, dark
+    theme: 'dark' // options: mist, light, dark
   },
 
   // Main Layout/Style
@@ -64,7 +64,7 @@ export default {
     mailchimp: {
       on: true,
       formAction:
-        'https://danielkelly.us3.list-manage.com/subscribe/post?u=d3c2e762b66a2353d0bc29bf3&amp;id=2abeaa06e0'
+        'https://jorgebarrero.us4.list-manage.com/subscribe/post?u=3022dbe6cde8010405688a80b&amp;id=84d65a1c3a'
     },
     custom: {
       on: false,

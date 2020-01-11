@@ -46,7 +46,6 @@
     </div>
   </nav>
 </template>
-
 <script>
 import SiteSearch from '~/components/SiteSearch'
 import HamburgerButton from '~/components/HamburgerButton'
@@ -60,11 +59,7 @@ export default {
   }
 }
 </script>
-
 <style lang="scss" scoped>
-nav {
-  background-color: lightgray;
-}
 .navbar-item img {
   max-height: 2rem;
 }
