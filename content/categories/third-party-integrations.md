@@ -1,5 +1,6 @@
 ---
 name: Third Party Integrations
-image: https://picsum.photos/1800/1801
+image: uploads/home-hero.jpg
+description: Integrate with awake
 ---
-Extend the functionality of Awake with third party integrations
+
