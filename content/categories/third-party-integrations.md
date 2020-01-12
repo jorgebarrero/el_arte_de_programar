@@ -1,6 +1,6 @@
 ---
 name: Third Party Integrations
-image: uploads/home-hero.jpg
+image: uploads/contact-hero.jpg
 description: Integrate with awake
 ---
-Integrate with awake
+
