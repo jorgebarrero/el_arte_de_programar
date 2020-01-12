@@ -10,8 +10,12 @@
         <div class="tile is-ancestor">
           <div class="tile is-parent">
             <article class="tile is-child box">
-              <p class="title">Hello!</p>
-              <p class="subtitle">What can I do for you?</p>
+              <p class="title">
+                Hello!
+              </p>
+              <p class="subtitle">
+                What can I do for you?
+              </p>
               <figure class="image is-1by1">
                 <opti-image
                   :src="require('~/assets/uploads/contact-person.jpg').src"
@@ -41,7 +45,9 @@
         </div>
       </template>
       <template v-slot:sidebar>
-        <h3 class="subtitle is-4">Latest Posts</h3>
+        <h3 class="subtitle is-4">
+          Latest Posts
+        </h3>
         <!-- Latest Posts -->
         <posts-grid :per-row="1" :number="2" />
       </template>
