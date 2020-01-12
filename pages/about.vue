@@ -36,20 +36,36 @@
           <p>
             I like to teach people how to program, and I do this in several
             ways. When it comes to formal courses I work with
-            cusosgerenciales.com. You can find there basically my Office related
-            courses. I have a free program for educators that we are promoting
-            via the Venezuelan Natural Science Society. And I mentor individual
-            students so that they can accomplish a long term career in this
-            industry.
+            <strong>cusosgerenciales.com</strong>. You can find there basically
+            my Office related courses. I have a free program for educators that
+            we are promoting via the
+            <strong>Venezuelan Natural Science Society.</strong> And I mentor
+            individual students so that they can accomplish a long term career
+            in this industry.
+          </p>
+
+          <h3>Development</h3>
+          <p>
+            Currently I lead the Development team at
+            <strong>Maprotel,</strong> a callcenter consulting agency, and the
+            core product that is <strong>Proser.</strong>
           </p>
 
           <h3>Tech Stack</h3>
           <p>
             Now days I focus on Javascript/Typescript ecosystem. This means I
-            use things like Angular, React, Vue, Node for backend development
-            and I use Loopback and currently my team is experimenting with
-            serverless architectures the JamStack and some other cool
-            technologies.
+            use things like Angular, React, Vue in the frontend and Node for
+            backend including frameworks and libraries like Express, Koa,
+            Loopback and many others.
+          </p>
+          <p>
+            On the persistance layer I am devoted to MariaDB, a drop in
+            replacement for MySQL, but also like NoSQL databases like Mongo,
+            Arango and CouchDB.
+          </p>
+          <p>
+            We are pointing to serverless architectures the JamStack and some
+            other cool technologies for future projects.
           </p>
         </div>
       </template>

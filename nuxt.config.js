@@ -38,6 +38,22 @@ export default {
    ** Build configuration
    */
   build: build
+  /*
+   ** Add ESLint configuration
+   */
+  // extend(config, ctx) {
+  //   if (ctx.dev && ctx.isClient) {
+  //     config.module.rules.push({
+  //       enforce: 'pre',
+  //       test: /\.(js|vue)$/,
+  //       loader: 'eslint-loader',
+  //       exclude: /(node_modules)/,
+  //       options: {
+  //         fix: true
+  //       }
+  //     })
+  //   }
+  // }
 }
 
 /**
