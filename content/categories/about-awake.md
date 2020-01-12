@@ -1,5 +1,6 @@
 ---
 name: About Awake
-image: https://picsum.photos/1800/1801
+image: uploads/about-hero.jpg
+description: Awake improvements
 ---
-All about the Awake Nuxt Template
+
