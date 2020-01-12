@@ -1,5 +1,5 @@
 ---
 name: About Awake
-image: /logo.svg
+image: https://picsum.photos/1800/1801
 ---
 All about the Awake Nuxt Template

@@ -3,7 +3,7 @@
     <site-hero
       title="About Me"
       subtitle="A few words about the author of this blog"
-      image="/uploads/about-hero.jpg"
+      image="https://picsum.photos/1800/1801"
     ></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>
@@ -48,7 +48,8 @@
           <p>
             Currently I lead the Development team at
             <strong>Maprotel,</strong> a callcenter consulting agency, and the
-            core product that is <strong>Proser.</strong>
+            core product that is
+            <strong>Proser.</strong>
           </p>
 
           <h3>Tech Stack</h3>
@@ -71,9 +72,7 @@
       </template>
 
       <template v-slot:sidebar>
-        <h3 class="subtitle is-4">
-          Latest Posts
-        </h3>
+        <h3 class="subtitle is-4">Latest Posts</h3>
         <posts-grid :per-row="1" :number="2" />
       </template>
     </main-section>

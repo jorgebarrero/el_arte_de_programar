@@ -11,7 +11,7 @@ import theCMS from '../cms/netlify/cms'
 export default {
   siteName: "Jorge Barrero's Blog Site",
   tagline: 'The art of computer programming',
-  featureImage: '/uploads/home-hero.jpg',
+  featureImage: 'https://picsum.photos/1800/1801',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
