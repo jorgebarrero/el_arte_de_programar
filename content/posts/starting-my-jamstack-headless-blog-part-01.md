@@ -5,7 +5,7 @@ category:
   - This blog
 author: Jorge Barrero
 date: 2020-01-14T09:27:22.166Z
-featureImage: uploads/flames-01.jpg
+featureImage: /uploads/flames-01.jpg
 ---
 For a long time I wanted to make a blog. As time goes by I decided to make one and learn a couple of things on the way. Here I will present my experience developing this blog, so that you can probably make yours.
 
