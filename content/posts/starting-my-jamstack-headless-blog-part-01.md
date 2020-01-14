@@ -23,7 +23,7 @@ Modern technologies use other languages as well, Python is really good with Djan
 
 Javascript used to be a toy in the past, but not any more. Is very hard to master javascript, because there are lots of things to learn. If you want to go this path, you have to understand it well and that will take you some time to achieve.
 
-To make thin experience interesting I decided to get out of my comfort zone and embrace the JAMstack: JavaScript, APIs, and Markup [Jamstack](https://jamstack.org/). That will be challenging.
+To make this experience interesting I decided to get out of my comfort zone and embrace the [JAMstack](https://jamstack.org/): JavaScript, APIs, and Markup . That will be challenging.
 
 This is a whole new way of looking at things. The main principle is "think big, act small".
 
