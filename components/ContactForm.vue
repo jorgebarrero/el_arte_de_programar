@@ -1,10 +1,18 @@
 <template>
-  <form name="contact" method="POST" data-netlify="true">
+  <form
+    name="contact"
+    method="POST"
+    data-netlify="true"
+  >
     <!-- Name -->
     <div class="field">
       <label class="label is-medium">Name</label>
       <div class="control has-icons-left">
-        <input class="input is-medium" type="text" placeholder="John Smith" />
+        <input
+          class="input is-medium"
+          type="text"
+          placeholder="John Smith"
+        >
         <span class="icon is-small is-left">
           <font-awesome-icon icon="user" />
         </span>
@@ -18,7 +26,7 @@
           class="input is-medium"
           type="email"
           placeholder="you@email.com"
-        />
+        >
         <span class="icon is-small is-left">
           <font-awesome-icon icon="envelope" />
         </span>
@@ -32,7 +40,7 @@
           class="input is-medium"
           type="text"
           placeholder="Brief Summary"
-        />
+        >
         <span class="icon is-small is-left">
           <font-awesome-icon icon="briefcase" />
         </span>
@@ -46,7 +54,7 @@
           class="textarea"
           placeholder="Detailed description of your comment, request, etc"
           rows="8"
-        ></textarea>
+        />
       </div>
     </div>
     <div class="control">

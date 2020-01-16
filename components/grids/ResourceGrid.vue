@@ -12,7 +12,7 @@
       @atEnd="loadMore()"
     >
       <template v-slot:default="{ item }">
-        <slot :item="item"></slot>
+        <slot :item="item" />
       </template>
     </presentational-grid>
   </div>

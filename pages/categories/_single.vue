@@ -1,5 +1,8 @@
 <template>
-  <div id="category-page" class="page-wrapper category-page">
+  <div
+    id="category-page"
+    class="page-wrapper category-page"
+  >
     <site-hero
       :title="$store.state.name"
       :subtitle="$store.state.content"
@@ -8,7 +11,10 @@
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <!-- Posts in Category -->
-        <posts-grid :category="[$store.state.name]" :per-row="2" />
+        <posts-grid
+          :category="[$store.state.name]"
+          :per-row="2"
+        />
       </template>
       <template v-slot:sidebar>
         <h3 class="subtitle">

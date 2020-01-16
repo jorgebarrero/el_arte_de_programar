@@ -17,9 +17,12 @@
         }"
         type="search"
         @keyup.enter="search"
-      />
+      >
 
-      <ul v-if="matches" class="search-results subtle-box-shadow">
+      <ul
+        v-if="matches"
+        class="search-results subtle-box-shadow"
+      >
         <div v-if="matches.length">
           <li
             v-for="match in matches"
@@ -29,7 +32,10 @@
             <nuxt-link :to="`/${match.slug}`">
               {{ match.title }}
             </nuxt-link>
-            <small class="match-snippet" v-html="match.snippet"></small>
+            <small
+              class="match-snippet"
+              v-html="match.snippet"
+            />
           </li>
         </div>
 
@@ -38,7 +44,7 @@
           <font-awesome-icon
             icon="times"
             @click="toggleSearchBar()"
-          ></font-awesome-icon>
+          />
         </li>
       </ul>
     </span>

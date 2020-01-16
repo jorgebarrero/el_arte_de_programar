@@ -36,7 +36,7 @@
                 'empty-content-placeholder': !$slots.default
               }"
             >
-              <slot></slot>
+              <slot />
             </h4>
           </nuxt-link>
         </div>

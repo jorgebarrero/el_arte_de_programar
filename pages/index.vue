@@ -1,6 +1,13 @@
 <template>
-  <div id="home-page" class="page-wrapper home-page">
-    <site-hero :title="title" :subtitle="subtitle" :image="featureImage">
+  <div
+    id="home-page"
+    class="page-wrapper home-page"
+  >
+    <site-hero
+      :title="title"
+      :subtitle="subtitle"
+      :image="featureImage"
+    >
       <button
         class="button is-primary"
         @click="$eventBus.$emit('modal-triggered', 'newsletter-modal')"
@@ -17,32 +24,28 @@
         Nothing here
       </template>
     </main-section>
-    <news-letter-form-modal />
   </div>
 </template>
 
 <script>
-import { mapState } from 'vuex'
-import { setPageData } from '../helper'
-import NewsLetterFormModal from '~/components/NewsLetterFormModal'
+import { mapState } from "vuex";
+import { setPageData } from "../helper";
+import NewsLetterFormModal from "~/components/NewsLetterFormModal";
 
 export default {
-  name: 'HomePage',
+  name: "HomePage",
   head() {
     return {
       title: `Home | ${this.$siteConfig.siteName}`
-    }
-  },
-  components: {
-    NewsLetterFormModal
+    };
   },
   computed: {
-    ...mapState(['title', 'subtitle', 'featureImage'])
+    ...mapState(["title", "subtitle", "featureImage"])
   },
   fetch({ store, params }) {
-    setPageData(store, { slug: 'home' })
+    setPageData(store, { slug: "home" });
   }
-}
+};
 </script>
 
 <style>

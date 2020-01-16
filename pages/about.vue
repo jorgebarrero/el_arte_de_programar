@@ -1,10 +1,13 @@
 <template>
-  <div id="about-page" class="page-wrapper about-page content-page">
+  <div
+    id="about-page"
+    class="page-wrapper about-page content-page"
+  >
     <site-hero
       title="About Me"
       subtitle="A few words about the author of this blog"
       image="https://picsum.photos/1800/1801"
-    ></site-hero>
+    />
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <div class="content">
@@ -75,7 +78,10 @@
         <h3 class="subtitle is-4">
           Latest Posts
         </h3>
-        <posts-grid :per-row="1" :number="2" />
+        <posts-grid
+          :per-row="1"
+          :number="2"
+        />
       </template>
     </main-section>
   </div>

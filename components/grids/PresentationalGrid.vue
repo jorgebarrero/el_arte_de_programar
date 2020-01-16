@@ -1,6 +1,9 @@
 <template>
   <div :class="`grid grid-theme-${theme || 'blocks'}`">
-    <intersection-observer v-if="items.length === 0" @view="$emit('atEnd')" />
+    <intersection-observer
+      v-if="items.length === 0"
+      @view="$emit('atEnd')"
+    />
     <div class="columns items is-multiline">
       <div
         v-for="(item, index) in itemsComputed"
@@ -8,10 +11,13 @@
         :class="`column items`"
         :style="`width: ${100 / perRow}%`"
       >
-        <slot :item="item"></slot>
+        <slot :item="item" />
       </div>
     </div>
-    <div v-if="bottomLoader" class="loading-posts">
+    <div
+      v-if="bottomLoader"
+      class="loading-posts"
+    >
       <loading-spinner />
     </div>
     <intersection-observer @view="$emit('atEnd')" />

@@ -5,7 +5,7 @@
       :src="responsiveImage.src"
       :lazy="false"
       :srcset="responsiveImage.srcSet"
-    />
+    >
     <div class="hero-body">
       <div class="container">
         <h1 class="title animated fadeInUp">
@@ -14,7 +14,7 @@
         <h2 class="subtitle animated fadeInUp slower">
           {{ subtitle }}
         </h2>
-        <br />
+        <br>
         <div
           v-if="$slots.default"
           class="under-subtitle animated fadeInDown slower"

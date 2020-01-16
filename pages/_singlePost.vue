@@ -1,13 +1,23 @@
 <template>
-  <div id="post-page" class="page-wrapper post-page">
-    <site-hero :title="title" :subtitle="subtitle" :image="featureImage">
+  <div
+    id="post-page"
+    class="page-wrapper post-page"
+  >
+    <site-hero
+      :title="title"
+      :subtitle="subtitle"
+      :image="featureImage"
+    >
       <span
         v-if="author && $siteConfig.posts.displayAuthor"
         class="author-wrapper"
       >
         <strong>Author:</strong> {{ author }}
       </span>
-      <span v-if="date" class="date-wrapper">
+      <span
+        v-if="date"
+        class="date-wrapper"
+      >
         <strong>Published on:</strong> {{ date }}
       </span>
     </site-hero>
@@ -20,7 +30,11 @@
               Related Posts
             </h6>
             <!-- Related Posts -->
-            <posts-grid :number="3" :category="category" :exclude="slug" />
+            <posts-grid
+              :number="3"
+              :category="category"
+              :exclude="slug"
+            />
           </div>
           <disqus-comments :identifier="$route.params.singlePost" />
         </div>

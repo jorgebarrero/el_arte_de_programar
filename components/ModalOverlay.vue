@@ -6,19 +6,32 @@
       'is-closing': closing
     }"
   >
-    <div class="modal-background"></div>
+    <div class="modal-background" />
     <div class="modal-card">
-      <header v-if="title" class="modal-card-head">
+      <header
+        v-if="title"
+        class="modal-card-head"
+      >
         <p class="modal-card-title">
           {{ title }}
         </p>
-        <button class="delete" aria-label="close" @click="close()"></button>
+        <button
+          class="delete"
+          aria-label="close"
+          @click="close()"
+        />
       </header>
       <section class="modal-card-body">
-        <slot></slot>
+        <slot />
       </section>
-      <footer v-if="footer" class="modal-card-foot">
-        <button class="button is-success" @click="$emit('confirm')">
+      <footer
+        v-if="footer"
+        class="modal-card-foot"
+      >
+        <button
+          class="button is-success"
+          @click="$emit('confirm')"
+        >
           {{ confirmText }}
         </button>
         <button

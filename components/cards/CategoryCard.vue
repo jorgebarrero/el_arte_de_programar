@@ -1,5 +1,9 @@
 <template>
-  <generic-card :title="title" :image="image" :link="link">
+  <generic-card
+    :title="title"
+    
+    :link="link"
+  >
     {{ description }}
   </generic-card>
 </template>

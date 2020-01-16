@@ -1,5 +1,8 @@
 <template>
-  <div v-if="$siteConfig.disqus.on" class="comments-wrapper section">
+  <div
+    v-if="$siteConfig.disqus.on"
+    class="comments-wrapper section"
+  >
     <a
       v-if="$siteConfig.disqus.loadingStrategy === 'button' && !displayed"
       class="button is-fullwidth is-outlined is-large"

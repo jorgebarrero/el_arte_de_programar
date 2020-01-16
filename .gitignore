@@ -89,3 +89,5 @@ sw.*
 
 #Awake CMS
 static/api
+
+package-lock.json

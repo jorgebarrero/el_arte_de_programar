@@ -1,6 +1,6 @@
 <template functional>
   <div :class="`spinner-wrapper spinner-position-${props.position}`">
-    <div class="spinner"></div>
+    <div class="spinner" />
   </div>
 </template>
 
