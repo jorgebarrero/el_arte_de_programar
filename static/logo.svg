@@ -1,1 +1,93 @@
-<svg width="50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 712 483"><title>Artboard 1 copy 8</title><path d="M334.63,192A386.92,386.92,0,0,1,439.27,206.1c34,9.55,65.13,23.69,92.5,42,13.1,8.77,28.25,19.28,41.33,30.69,13.93,12.15,19,19.71,20.6,22.68-1.77,4.18-9.93,18.79-43.42,41.41a396.64,396.64,0,0,1-63.11,34.36c-9.31,3.93-18.92,7.52-28.61,10.68a411,411,0,0,1-126.22,19.78c-43.44,0-85.26-6.62-124.29-19.69a321,321,0,0,1-78.77-38.58c-3.63-2.47-6.58-4.52-9.36-6.49-15.84-11.23-27.12-20.82-34.48-29.31-7.76-9-8.12-13.13-8.12-13.16s.2-1.45,2.3-4.52c11.43-16.76,26.47-32,44.69-45.17C142,238,162.74,226.93,186,218c43.43-16.74,95.84-26,147.59-26h1.06m0-48h-1.06c-108.74,0-233,36.16-293.6,124.9C9,314.21,51.29,353.15,92.16,382.13c3.39,2.4,6.77,4.74,10.1,7a368.89,368.89,0,0,0,90.55,44.43c44.41,14.87,92,22.17,139.53,22.17a456.2,456.2,0,0,0,141.15-22.16q16.49-5.38,32.33-12.07a445,445,0,0,0,71.33-38.82c37.52-25.34,71.17-58.4,64-90.66C634,260,585,226,558.48,208.25,493.84,164.94,414.47,144,334.63,144Z" style="fill:#363636"/><circle cx="349.99" cy="300" r="47.47" style="fill:#363636"/><circle cx="328.32" cy="269.5" r="25.29" style="fill:#fff"/><path d="M650.37,167.94l-67.79,50.6c-4.05,3-10,.72-6.56-2.53l59-55.33.05,0c11.06-2.9,17.41-.06,15.41,6.89Z" style="fill:#363636"/><path d="M603.32,118l-66.53,56.74c-4,3.39-12,.6-8.81-3.07l54.27-62.4h.06c12.57-3.09,21.24.33,21,8.29Z" style="fill:#363636"/><path d="M532.11,83.67l-60.92,64.71c-3.64,3.87-13.51,1.11-10.84-3l45.48-70.43.07,0c13.5-3.87,24.27-.46,26.1,8.27Z" style="fill:#363636"/><path d="M450.06,51.63l-48.19,79.63c-2.87,4.76-12.38,3.29-10.44-1.61l33.14-83.47.06,0c12-6.28,22.44-4.24,25.26,5Z" style="fill:#363636"/><path d="M358.29,25.41l-26.35,92.47c-1.57,5.53-11.31,5.14-10.69-.42l10.54-94.72,0,0c10.17-8.34,21-7.45,26.15,2.16Z" style="fill:#363636"/><circle cx="335.71" cy="299.87" r="110.44" style="fill:none;stroke:#363636;stroke-miterlimit:10;stroke-width:33.5354693973657px"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg193"
+   width="300"
+   height="53"
+   viewBox="0 0 300 53"
+   sodipodi:docname="logo.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:export-filename="/media/jorge/Development/jorgebarrero/new-site/static/logo.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <metadata
+     id="metadata199">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs197" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="695"
+     id="namedview195"
+     showgrid="false"
+     inkscape:zoom="2.1765104"
+     inkscape:cx="150"
+     inkscape:cy="26.5"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg193" />
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot203"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     transform="translate(34.91828,0.45945105)"><flowRegion
+       id="flowRegion205"><rect
+         id="rect207"
+         width="296.34592"
+         height="48.242359"
+         x="0.9189021"
+         y="2.4603844" /></flowRegion><flowPara
+       id="flowPara209">Jorge Barrero</flowPara></flowRoot>  <circle
+     style="fill:#006c00"
+     id="path211"
+     cx="15.851062"
+     cy="26.122114"
+     r="13.553806" />
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot213"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
+       id="flowRegion215"><rect
+         id="rect217"
+         width="77.647224"
+         height="45.945107"
+         x="38.134438"
+         y="80.107613" /></flowRegion><flowPara
+       id="flowPara219" /></flowRoot>  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ccfc14;fill-opacity:1;stroke:none"
+     x="4.5945101"
+     y="36.000313"
+     id="text223"><tspan
+       sodipodi:role="line"
+       id="tspan221"
+       x="4.5945101"
+       y="36.000313">✓</tspan></text>
+</svg>

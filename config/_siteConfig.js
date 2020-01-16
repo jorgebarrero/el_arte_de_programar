@@ -12,7 +12,7 @@ export default {
   siteName: "Jorge Barrero's Blog Site",
   tagline: 'The art of computer programming',
   featureImage: 'https://picsum.photos/1800/1801',
-  logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
+  logo: '/logo.png', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
     id: process.env.GOOGLE_ANALYTICS_ID
